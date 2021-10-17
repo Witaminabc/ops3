@@ -1,0 +1,364 @@
+    .fullscreen-bg {
+        overflow: hidden;
+        z-index: -100;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding-top:45%;
+    }
+     
+    .fullscreen-bg__video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .overlay {
+        margin:0 25% 0 25%;
+        width:50%;
+        position: absolute;
+        top:20%;
+        left:0;
+        height: 100%;
+        z-index: 4;
+            div{
+                    height: 200px;
+
+        }
+    }
+    .overlay h1 {
+        text-align:center;
+        color:#fff;
+        font-size: 70px;
+        margin-top:17%;
+    }
+
+    .overlay col-12 {
+        background:red;
+    }
+        @media (max-width: 767px) {
+        .fullscreen-bg {
+            background: url('../images/plane.jpg') center center / cover no-repeat;
+        }
+        .fullscreen-bg__video {
+            display: none;
+        }
+    }
+
+    .bug2{
+        .container{
+            background:red;
+            .row{
+                height: 300px;
+                .c1{
+                    div{
+                        height: 30%;
+                        width: 50%;
+                    }
+                    
+                }
+                .c2{
+                   
+                        height: 50%;
+                        width: 30%;
+                    
+                    
+                }
+                .c3{
+                    div{
+                        height: 30%;
+                        width: 50%;                        
+   
+                    }
+
+                    
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-device-width: 992px){
+    nav.navbar .dropdown:hover .dropdown-menu{
+        display: none;
+    }
+}
+
+.super{
+    .container{
+    .c1{
+        height: 200px;
+    };
+    .c2{
+        height: 200px;
+    };
+}
+}
+
+.test{
+    .r4{
+        height: 500px;
+    }
+}
+
+.bll{
+    height: 100px;
+}
+
+.form-control {
+outline: none;
+border: none;
+}
+
+.oneform{
+    margin-top: 50px;
+    width:900px;
+    form{
+    width: 800px;}
+}
+.test23{
+        height: 300px;
+        .one{
+    background: #456BD9;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  display: block;
+        }
+        .two{
+            right: 50px;
+        }
+
+}
+
+ .one{
+    background: #456BD9;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  display: block;
+        }
+        .btn-rounded {
+    border-radius: 19px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+
+
+}
+.b1:hover{
+box-shadow:0 0 5px 3px red;
+margin-right:2px;
+transform: translateY(-2px);
+.btn{
+    background:red;
+}
+
+
+}
+
+
+.b2:hover{
+box-shadow:0 0 3px 4px black;
+margin-right:2px;
+transform: translateY(3px);
+.btn{
+    background:red;
+}
+
+
+}
+.b3{
+  a{
+    text-decoration:none;
+  }
+  div{
+    div{
+      display: none;
+    }
+  }
+}
+
+    .b3:hover{
+      transform: translateY(-5px);
+      div{
+        plus{
+          color: red;
+
+        }
+        div {
+          display: block;
+          z-index: 100;
+
+
+      }
+      }
+    }
+
+.redspan{
+    color: red;
+}
+
+#bloktext1 ul {
+    li  {
+    list-style:none;
+    &::before{
+
+    content: "❖";
+    display:block;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 21px;
+    height: 21px;
+    color: rgb(254, 100, 80);
+    text-align: center;
+    font-size: 16px;
+    
+
+    }
+    
+    
+    }
+}
+.imging{
+    height: 30px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.ggg::after{
+ width: 100px;
+   height: 100px;
+   background:red;
+   display: block;
+  
+
+}
+
+
+#prokrutka {
+height:350px; /* высота нашего блока */
+background: #fff; /* цвет фона, белый */
+border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+overflow-y: scroll; /* прокрутка по вертикали */
+}
+
+
+
+.block3{
+    transition: all 2s;
+}
+
+
+.block3:hover   {
+    height: 100%;
+    width: 100%;
+    background-color:red ;
+    opacity: 0.7;
+
+}
+
+
+
+// .supermerge1{
+//     transition: all 2s;
+// }
+
+
+// .supermerge1:focus{
+//     background : black;
+//     height:100%;
+//     width:100%;
+//     display:block;
+//     z-index:9999 ;
+//     color:#fff;
+//     position:relative;
+// }
+
+
+
+ .testing2{
+    animation:sizes 8s infinite;
+
+ }
+.testing2{
+animation:loader 8s infinite;
+ }
+@keyframes loader {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-185deg)}
+  100%{transform:rotate(-355deg)}
+};
+@keyframes sizes{
+    0% {transform:scale(0.8)}
+        50% {transform:scale(0.5)}
+
+    100% {transform:scale(0.2)}
+
+};
+// @keyframes follow{
+//     0% {transform:tr(0.8)}
+//         50% {transform:scale(0.5)}
+
+//     100% {transform:scale(0.2)}
+
+// };
+    .kio{
+      height: 120px!important;
+      width: 400px!important;
+      background-color: WhiteSmoke;
+      img{
+        width: 30px;
+        margin: 10px;
+      }
+      p{
+        //margin: 10px;
+        //padding: 0px;
+        font-size: 12px;
+
+      }
+    };
+
+
+    .kio:hover{
+      background-color: Linen!important;
+      margin: 5px;
+    };
+
+    #menu2 .dropdown:hover > .dropdown-menu {
+      display: block;
+      background: none;
+      border: none;
+      #upmenu21{width: 500px !important;background-color: white;};
+      #upmenu22{width: 500px !important;background-color: white;};
+      #upmenu24{
+        width: 1200px !important;
+        position: relative;
+        right: 400px!important;
+        background-color: white;
+      }
+    };
+//модальное окно
+    .modal-content{
+      width: 100%!important;
+    }
+    .modal-dialog {
+      max-width: 100% !important;
+      margin: 0px !important;
+      color: white;
+    }
+    #staticBackdrop{
+      padding-right: 0px!important;
+    }
+
+    @import "phone";

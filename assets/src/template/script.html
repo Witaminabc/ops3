@@ -1,0 +1,250 @@
+<script src="js/main.min.js"></script>
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        3000:{
+            items:2
+        },
+        6000:{
+            items:3
+        }
+    }
+});
+$('.collapse').collapse();
+</script>
+<script>
+
+function first(numb) {
+    var numb=numb;
+    var second_hide='second_hide'+numb
+    var first_yelloy='first_yelloy'+numb
+    // console.log(second_hide,numb)
+
+document.getElementById(second_hide).setAttribute("style", "display: block");
+
+document.getElementById("first1").setAttribute("style", "display: none !important");
+document.getElementById("first2").setAttribute("style", "display: none !important");
+document.getElementById("first3").setAttribute("style", "display: none !important");
+document.getElementById("first4").setAttribute("style", "display: none !important");
+
+
+document.getElementById(first_yelloy).setAttribute("style", "display: block !important");
+
+}
+
+function first_yelloy(numb) {
+
+    var numb=numb;
+
+    var first_yelloy2='first_yelloy'+numb
+
+document.getElementById("second_hide1").setAttribute("style", "display: none !important");
+document.getElementById("second_hide2").setAttribute("style", "display: none !important");
+
+document.getElementById("second_hide3").setAttribute("style", "display: none !important");
+
+document.getElementById("second_hide4").setAttribute("style", "display: none !important");
+
+
+document.getElementById(first_yelloy2).setAttribute("style", "display: none !important");
+
+document.getElementById("first1").setAttribute("style", "display: block !important");
+document.getElementById("first2").setAttribute("style", "display: block !important");
+document.getElementById("first3").setAttribute("style", "display: block !important");
+document.getElementById("first4").setAttribute("style", "display: block !important");
+}
+
+
+function one(numb) {
+    var numb=numb;
+    var second_hide='two'+numb
+    var first_yelloy='three'+numb
+    // console.log(second_hide,numb)
+
+
+document.getElementById("three1").setAttribute("style", "display: none !important");
+document.getElementById("three2").setAttribute("style", "display: none !important");
+document.getElementById("three3").setAttribute("style", "display: none !important");
+document.getElementById("three4").setAttribute("style", "display: none !important");
+document.getElementById("three5").setAttribute("style", "display: none !important");
+document.getElementById("three6").setAttribute("style", "display: none !important");
+
+
+document.getElementById("two1").setAttribute("style", "display: block !important");
+document.getElementById("two2").setAttribute("style", "display: block !important");
+document.getElementById("two3").setAttribute("style", "display: block !important");
+document.getElementById("two4").setAttribute("style", "display: block !important");
+document.getElementById("two5").setAttribute("style", "display: block !important");
+document.getElementById("two6").setAttribute("style", "display: block !important");
+
+document.getElementById(first_yelloy).setAttribute("style", "display: block !important");
+document.getElementById(second_hide).setAttribute("style", "display: none !important");
+
+
+
+}
+
+
+
+function supermainn(numb) {
+    var numb=numb;
+    var supermain='supermainn'+numb
+    var superr='superrr'+numb
+    // console.log(second_hide,numb)
+
+
+document.getElementById("superrr1").setAttribute("style", "display: none !important");
+document.getElementById("superrr2").setAttribute("style", "display: none !important");
+document.getElementById("superrr3").setAttribute("style", "display: none !important");
+document.getElementById("superrr4").setAttribute("style", "display: none !important");
+document.getElementById("superrr5").setAttribute("style", "display: none !important");
+
+document.getElementById("supermainn1").setAttribute("style", "display: block !important");
+document.getElementById("supermainn2").setAttribute("style", "display: block !important");
+document.getElementById("supermainn3").setAttribute("style", "display: block !important");
+document.getElementById("supermainn4").setAttribute("style", "display: block !important");
+document.getElementById("supermainn5").setAttribute("style", "display: block !important");
+
+
+document.getElementById(supermain).setAttribute("style", "display: none !important");
+
+document.getElementById(superr).setAttribute("style", "display: block !important");
+
+}
+
+function superrr2(numb) {
+
+    var numb=numb;
+    var supermain='supermainn'+numb
+    var superr='superrr'+numb
+
+document.getElementById(superr).setAttribute("style", "display: none !important");
+
+document.getElementById(supermain).setAttribute("style", "display: block !important");
+}
+
+
+
+
+
+function supermain(numb) {
+    var numb=numb;
+    var supermain='supermain'+numb
+    var superr='superr'+numb
+    // console.log(second_hide,numb)
+
+
+document.getElementById("superr1").setAttribute("style", "display: none !important");
+document.getElementById("superr2").setAttribute("style", "display: none !important");
+document.getElementById("superr3").setAttribute("style", "display: none !important");
+document.getElementById("superr4").setAttribute("style", "display: none !important");
+
+
+document.getElementById(superr).setAttribute("style", "display: block !important");
+
+}
+
+function superr2(numb) {
+
+    var numb=numb;
+    var supermain='supermain'+numb
+    var superr='superr'+numb
+
+document.getElementById(superr).setAttribute("style", "display: none !important");
+
+// document.getElementById(supermain).setAttribute("style", "display: block !important");
+}
+
+function supermerge1(){
+    document.getElementById(supermerge1).setAttribute("style", "display: block !important");
+
+}
+       var jdf=0;
+
+
+$(".block44").click(function () {
+
+       // $(this).find('.supermerge1').css({'backgroundColor' : 'red','height':'100%','width':'100%','display':'block', 'color':'#fff','position':'absolute'});
+        $('.supermerge1').css({'backgroundColor' : 'red','height':'100%','width':'100%','display':'none', 'color':'#fff'});
+         $(this).find('.supermerge1').css({'backgroundColor' : 'black','height':'100%','width':'100%','display':'block','z-index':'9999' ,'color':'#fff','position':'relative','transition':'1s'});
+         // $('.block3').find('.block44').css({'backgroundColor' : 'red','height':'100%','width':'100%','opacity':' 0.7',});
+         // $(this).find('.block44').css({'backgroundColor' : 'red','height':'100%','width':'100%','opacity':' 0.7'});
+      
+    });
+// $('.supermerge1').click(function () {
+//     $('.supermerge1').css({'backgroundColor' : 'red','height':'100%','width':'100%','display':'none', 'color':'#fff','position':'absolute'});
+//     });
+
+// $("#block11").css({'background-color':'green','height':'300px','width':'200px', 'position':'absolute','opacity':'0.7','display':'none'
+// })
+
+// $("#block2").css({'height':'300px','width':'200px', 'position':'absolute'})
+
+// $('#block2').hover(function () {
+//     $('#block11').css({'display':'block'
+// })
+// });
+
+
+
+
+    var calc = {
+        summ: 0, // сумма изначально 0
+        valueArray: (function () { //массив изначально создается на основе данных value выбранных кнопок
+            var array = [],
+                arrayLength = $("#form--calc  .calc__group--input").length;
+            for (var i = 0; i < arrayLength; i++) {
+                array.push( $("#form--calc .pw-adv-options-item .calc__group--input input[type='checkbox']").eq(i).is(':checked')? $("#form--calc .pw-adv-options-item .calc__group--input input[type='checkbox']").eq(i).attr('value'):0);
+            };
+            // #form--calc > tr:nth-child(8) > td.calc__group--input > label > input[type=checkbox]
+            return array;
+        })(),
+        summation: function () { //суммирует значения массива с данными
+            var summ = 3000,
+                i = this.valueArray.length - 1;
+            for (; i >= 0; i--) {
+                summ += this.valueArray[i];
+            };
+            this.summ = summ;
+            $("#summ").html(calc.summ);
+        },
+        changeEvent: function () {  //подключение обработчика событий
+            $("input[type='radio']").change(function () {   //для радиокнопок
+                var element = event.target,
+                    elementValue = parseInt(element.value),
+                    elementId = $(element).parents(".calc__group--input").index();
+                calc.valueArray[elementId] = elementValue;
+                calc.summation ();
+            });
+            $("input[type='checkbox']").change(function () {    //для чекбоксов
+                var element = event.target,
+                    elementValue = parseInt(element.value),
+                    elementId = $(element).parents(".calc__group--input").index();
+                if (!element.checked) {
+                    elementValue = 0;
+                };
+                calc.valueArray[elementId] = elementValue;
+                calc.summation ();
+            });
+        },
+        init: function () {
+            calc.summation ();
+            calc.changeEvent ();
+        }
+    };
+    calc.init ();
+
+
+// $(".pw-adv-options-item .calc__group--input input[type='checkbox']").css({'display':'none'})
+
+</script>
+</script>
